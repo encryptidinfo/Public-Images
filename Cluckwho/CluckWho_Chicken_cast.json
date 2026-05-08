@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.2",
-  "description": "Master roster of all CluckWho chickens. v1.2: image_url added pointing to GitHub-hosted PNG sprites. v1.1: spec mismatches corrected (c_044, c_045, c_065, c_090); vibe_spooky removed from taxonomy; backgrounds verified transparent across the cast. Anchor points TBD pending ChickenItemAdjuster calibration pass.",
+  "schema_version": "1.3",
+  "description": "Master roster of CluckWho chickens — gameplay data layer. v1.3: Backstory (bio, description) split out into bios.json to keep this file lightweight. Load bios.json separately when narrative content is needed (round-end flavor, lore views, etc.).",
   "cast_size": 102,
   "grid_size": 100,
   "off_grid_count": 2,
@@ -61,8 +61,6 @@
         "expr": "happy"
       },
       "trait_string": "color_white; pattern_solid; body_round; comb_small; expr_happy",
-      "bio": "The unofficial mayor of the coop. Bakes for everyone, knows everyone's business, definitely uses both against you. Aware that Abby is \"stealing\" her cookies. Replaces them every morning anyway.",
-      "description": "Off-white cream feathers, solid coloring, round chubby body, small comb, happy smile with wide round eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -85,8 +83,6 @@
         "expr": "smug"
       },
       "trait_string": "color_red; pattern_solid; body_round; comb_small; expr_smug",
-      "bio": "Lives for Friday nights. Has a vendetta against the rooster. Will not elaborate. Always wins. Currently has a *new* vendetta against a chick named Panda.",
-      "description": "Red-orange feathers, solid coloring, round chubby body, small comb, smug grin with half-lidded confident eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -110,8 +106,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_brown; pattern_solid; body_round; comb_big; expr_smug; vibe_tough",
-      "bio": "Was a lifeguard once. Tells you about it within thirty seconds of meeting. Still has the whistle.",
-      "description": "Earthy brown feathers, solid coloring, round chubby body, big floppy comb, smug grin, tough-looking with a weathered feel.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -134,8 +128,6 @@
         "expr": "smug"
       },
       "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_smug",
-      "bio": "Reginald's rebound. Doesn't know that yet. Walks into rooms like she owns them, which she sometimes does.",
-      "description": "Deep black feathers with subtle blue highlights, solid coloring, round chubby body, small comb, smug grin.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -159,8 +151,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
-      "bio": "Disco Drumstick's protégé. The only chicken Disco hasn't picked a fight with. Wears tiny headphones. Was secretly grateful to a chick named Panda.",
-      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, happy smile, cute with larger eyes and cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -184,8 +174,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_red; pattern_solid; body_round; comb_small; expr_happy; vibe_tough",
-      "bio": "Pinky Roost's sister. Will fight you for Pinky's honor. Pinky has not asked her to do this. They aren't speaking.",
-      "description": "Red-orange feathers, solid coloring, round chubby body, small comb, happy smile, tough-looking with broad confident stance.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -209,8 +197,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_smug; vibe_cute",
-      "bio": "Convinced she came from space. Has charts. The charts are made of breadcrumbs and feathers but they're surprisingly compelling.",
-      "description": "Deep black feathers, solid coloring, round chubby body, small comb, smug grin, cute with larger eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -234,8 +220,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_spotted; body_round; comb_small; expr_happy; vibe_cute",
-      "bio": "Astro's cousin. Doesn't believe the space thing but humors her. Brings actual snacks to the meetings.",
-      "description": "Earthy brown feathers with large darker spots, round chubby body, small comb, happy smile, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -258,8 +242,6 @@
         "expr": "happy"
       },
       "trait_string": "color_white; pattern_spotted; body_round; comb_big; expr_happy",
-      "bio": "The legitimate Talon child. Pretends not to know what the rest of the family does for a living.",
-      "description": "Off-white feathers with large darker spots, round chubby body, big floppy comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -282,8 +264,6 @@
         "expr": "happy"
       },
       "trait_string": "color_green; pattern_solid; body_round; comb_small; expr_happy",
-      "bio": "Smiles a lot. Says less. The other chickens are starting to suspect she's listening.",
-      "description": "Muted sage-green feathers, solid coloring, round chubby body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -307,8 +287,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gray; pattern_striped; body_round; comb_small; expr_grumpy; vibe_cute",
-      "bio": "Patriarch of the Eggberts. Perpetually disappointed in everyone, including chickens he's never met.",
-      "description": "Slate gray-blue feathers with darker stripes, round chubby body, small comb, grumpy frown, cute with larger eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -331,8 +309,6 @@
         "expr": "happy"
       },
       "trait_string": "color_white; pattern_striped; body_round; comb_small; expr_happy",
-      "bio": "Helps everyone with everything. Refuses to let anyone help her with anything. We're working on it.",
-      "description": "Off-white feathers with darker stripes, round chubby body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -356,8 +332,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_sleepy; vibe_cute",
-      "bio": "Always sleepy, always sweet. Disco Drumstick's much chiller cousin. They are not close.",
-      "description": "Deep black feathers, solid coloring, round chubby body, small comb, sleepy half-closed eyes, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -381,8 +355,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_white; pattern_speckled; body_round; comb_small; expr_happy; vibe_tough",
-      "bio": "Baywatch Quill's actual replacement at the lifeguard tower. Quill won't speak to her.",
-      "description": "Off-white feathers with many small darker flecks, round chubby body, small comb, happy smile, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -406,8 +378,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_multi; pattern_spotted; body_round; comb_big; expr_grumpy; vibe_tough",
-      "bio": "Three colors, three opinions, one bad attitude. Started a band. Disbanded it after one practice.",
-      "description": "Three distinct color patches (calico-style: red, white, brown), with large darker spots layered on top, round chubby body, big floppy comb, grumpy frown, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -431,8 +401,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_gold; pattern_striped; body_round; comb_small; expr_smug; vibe_fancy",
-      "bio": "Lucky in everything except love. Would rather not discuss it, thank you.",
-      "description": "Warm yellow-gold feathers with darker stripes, round chubby body, small comb, smug grin, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -456,8 +424,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
-      "bio": "Builds nests for free. Builds them well. Has a twin she does not acknowledge. Recently accused of stealing socks. She didn't. (Probably.)",
-      "description": "Off-white feathers, solid coloring, round chubby body, small comb, happy smile, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -481,8 +447,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_green; pattern_solid; body_round; comb_big; expr_happy; vibe_tough",
-      "bio": "Runs the Mango family restaurant. Looks soft. Has thrown a chicken out a window.",
-      "description": "Muted sage-green feathers, solid coloring, round chubby body, big floppy comb, happy smile, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -506,8 +470,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
-      "bio": "Just a really nice chicken. That's the whole bio. The other chickens find this suspicious.",
-      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, happy smile, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -531,8 +493,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_black; pattern_solid; body_round; comb_big; expr_happy; vibe_tough",
-      "bio": "Builds nests with great enthusiasm and zero structural integrity. Has a twin she does not acknowledge. Recently accused of stealing socks. She also didn't. (Probably.)",
-      "description": "Deep black feathers, solid coloring, round chubby body, big floppy comb, happy smile, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -555,8 +515,6 @@
         "expr": "happy"
       },
       "trait_string": "color_red; pattern_speckled; body_round; comb_big; expr_happy",
-      "bio": "Rockin Plume's drummer. The band lasted one practice. Still keeps the drumsticks in her nest, just in case.",
-      "description": "Red-orange feathers with many small darker flecks, round chubby body, big floppy comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -580,8 +538,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_sleepy; vibe_cute",
-      "bio": "Saw the whole Daisy/Reginald thing go down. Also saw the worm vault thing. Won't say a word about either. Sleeps a lot, allegedly.",
-      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, sleepy half-closed eyes, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -605,8 +561,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_gold; pattern_striped; body_round; comb_big; expr_surprised; vibe_fancy",
-      "bio": "Pinky Roost's cousin. Embarrassed by the family. Pretends she's from a different coop.",
-      "description": "Warm yellow-gold feathers with darker stripes, round chubby body, big floppy comb, wide-eyed surprised look, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -630,8 +584,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_surprised; vibe_fancy",
-      "bio": "Stunned by everything. Constantly. Genuinely. People keep checking on her. She's fine.",
-      "description": "Deep black feathers, solid coloring, round chubby body, small comb, wide-eyed surprised look, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -654,8 +606,6 @@
         "expr": "happy"
       },
       "trait_string": "color_red; pattern_striped; body_round; comb_small; expr_happy",
-      "bio": "Paranormal investigator. Has a twin she communicates with telepathically (or claims to).",
-      "description": "Red-orange feathers with darker stripes, round chubby body, small comb, happy smile, slightly spooky with glassy eye.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -679,8 +629,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_red; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
-      "bio": "Tiny, focused, terrifying. Allegedly knows three forms of martial arts. Has never used any of them.",
-      "description": "Red-orange feathers, solid coloring, round chubby body, small comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -704,8 +652,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_spotted; body_round; comb_big; expr_grumpy; vibe_cute",
-      "bio": "The responsible Eggbert. Runs Big's farm. Does not get a raise. Does not ask for one.",
-      "description": "Earthy brown feathers with large darker spots, round chubby body, big floppy comb, grumpy frown, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -728,8 +674,6 @@
         "expr": "grumpy"
       },
       "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_grumpy",
-      "bio": "Fast. Faster than you think. Faster than she needs to be. Has nowhere to go.",
-      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, grumpy frown.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -753,8 +697,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_pink; pattern_spotted; body_round; comb_small; expr_happy; vibe_fancy",
-      "bio": "Cold weather royalty. Refuses to come out in the summer. Has a glamorous winter coop somewhere.",
-      "description": "Soft pastel pink feathers with large darker spots, round chubby body, small comb, happy smile, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -777,8 +719,6 @@
         "expr": "surprised"
       },
       "trait_string": "color_gray; pattern_solid; body_round; comb_small; expr_surprised",
-      "bio": "Always slightly startled. Hasn't slept properly since the Incident. Won't tell you what the Incident was.",
-      "description": "Slate gray-blue feathers, solid coloring, round chubby body, small comb, wide-eyed surprised look.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -802,8 +742,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gray; pattern_striped; body_round; comb_small; expr_smug; vibe_cute",
-      "bio": "Soft outside, sharper than expected. Astro Nugget's cousin who actually likes the space charts.",
-      "description": "Slate gray-blue feathers with darker stripes, round chubby body, small comb, smug grin, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -827,8 +765,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_purple; pattern_striped; body_round; comb_big; expr_grumpy; vibe_tough",
-      "bio": "Runs the Mango restaurant's back kitchen. Fired Mango Hen once. Got hired back the next day. Long story.",
-      "description": "Muted lavender-purple feathers with darker stripes, round chubby body, big floppy comb, grumpy frown, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -851,8 +787,6 @@
         "expr": "happy"
       },
       "trait_string": "color_brown; pattern_speckled; body_round; comb_small; expr_happy",
-      "bio": "No nickname, no last name, just Pride. Doesn't need any of those.",
-      "description": "Earthy brown feathers with many small darker flecks, round chubby body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -876,8 +810,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_striped; body_round; comb_small; expr_smug; vibe_cute",
-      "bio": "Year-round pumpkin enthusiast. Has opinions about pumpkin spice that she will share unsolicited.",
-      "description": "Off-white feathers with darker stripes, round chubby body, small comb, smug grin, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -901,8 +833,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_happy; vibe_tough",
-      "bio": "Stretchy. Tough. Has been seen squeezing into spaces that should not have accommodated a chicken.",
-      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, happy smile, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -926,8 +856,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_pink; pattern_solid; body_round; comb_big; expr_happy; vibe_fancy",
-      "bio": "Snowball Beak's louder sister. Comes out of the winter coop more. Drinks too much hot cocoa.",
-      "description": "Soft pastel pink feathers, solid coloring, round chubby body, big floppy comb, happy smile, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -950,8 +878,6 @@
         "expr": "happy"
       },
       "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_happy",
-      "bio": "Always finds a puddle. Always splashes in it. Has ruined three of Pinky Beak's outfits.",
-      "description": "Deep black feathers, solid coloring, round chubby body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -975,8 +901,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_purple; pattern_spotted; body_round; comb_small; expr_sleepy; vibe_tough",
-      "bio": "Sleepy and tough is a combination she has fully committed to. Don't wake her up unless it's important.",
-      "description": "Muted lavender-purple feathers with large darker spots, round chubby body, small comb, sleepy half-closed eyes, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1000,8 +924,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_red; pattern_solid; body_tall; comb_small; expr_grumpy; vibe_tough",
-      "bio": "Won't talk about how she got the scar. Won't talk about much, honestly. Buy her a worm and she'll soften, maybe — though her stash isn't what it used to be. (She insists she just forgot where she buried them.)",
-      "description": "Red-orange feathers, solid coloring, tall and lanky body, small comb, grumpy frown, tough-looking with a faintly scarred eyebrow.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1024,8 +946,6 @@
         "expr": "smug"
       },
       "trait_string": "color_gray; pattern_solid; body_tall; comb_small; expr_smug",
-      "bio": "Smug for no clear reason. Possibly knows something. Probably doesn't. Either way, she's enjoying it.",
-      "description": "Slate gray-blue feathers, solid coloring, tall lanky body, small comb, smug grin.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1049,8 +969,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gold; pattern_solid; body_tall; comb_small; expr_happy; vibe_cute",
-      "bio": "Genuinely sweet. Genuinely doesn't know what she did to make Reginald hate her. (She knows. She knows exactly what she did.)",
-      "description": "Warm yellow-gold feathers, solid coloring, tall lanky body, small comb, happy smile, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1074,8 +992,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_white; pattern_spotted; body_tall; comb_small; expr_grumpy; vibe_tough",
-      "bio": "The Pinky family black sheep. Left the coop years ago. Came back with a scar and stories she won't tell.",
-      "description": "Off-white feathers with large dark spots, tall lanky body, small comb, grumpy frown, tough-looking with scarred eyebrow.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1099,8 +1015,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_gold; pattern_striped; body_tall; comb_small; expr_grumpy; vibe_fancy",
-      "bio": "Wears the gold like she earned it. She didn't. Nobody can prove that.",
-      "description": "Warm yellow-gold feathers with darker horizontal stripes, tall lanky body, small comb, grumpy frown, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1123,8 +1037,6 @@
         "expr": "happy"
       },
       "trait_string": "color_white; pattern_solid; body_tall; comb_small; expr_happy",
-      "bio": "The Snowball family's tall cousin. Less dramatic than Beak and Squawk. Quietly outshines them both.",
-      "description": "White solid plumage, tall slim body, small comb, happy soft expression. Clean and gentle look.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1148,8 +1060,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_gray; pattern_solid; body_tall; comb_big; expr_grumpy; vibe_fancy",
-      "bio": "Old money. Big comb, bad mood, excellent posture. Has not laughed since 2019.",
-      "description": "Gray solid plumage, tall regal body, big floppy comb, grumpy refined expression. Fancy disapproving vibe.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1172,8 +1082,6 @@
         "expr": "sleepy"
       },
       "trait_string": "color_pink; pattern_striped; body_tall; comb_big; expr_sleepy",
-      "bio": "Bookworm Beakson's twin. Used to dance professionally. Something happened during a performance. We don't ask.",
-      "description": "Soft pastel pink feathers with darker stripes, tall lanky body, big floppy comb, sleepy half-closed eyes, slightly spooky with glassy eye highlight.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1196,8 +1104,6 @@
         "expr": "smug"
       },
       "trait_string": "color_green; pattern_striped; body_tall; comb_small; expr_smug",
-      "bio": "Amateur detective, full-time menace. Investigates \"cases\" nobody reported. Has been right twice.",
-      "description": "Muted sage-green feathers with darker stripes, tall lanky body, small comb, smug grin, slightly spooky with glassy eye.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1221,8 +1127,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_pink; pattern_spotted; body_tall; comb_big; expr_smug; vibe_cute",
-      "bio": "The actual retired pirate captain of the Talon family. Lives quietly now. Has agreed to mentor a chick named Choo-Choo. Will not elaborate on the arrangement.",
-      "description": "Soft pastel pink feathers with large darker spots, tall lanky body, big floppy comb, smug grin, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1246,8 +1150,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_black; pattern_solid; body_tall; comb_small; expr_smug; vibe_cute",
-      "bio": "Tall, fast, smug about it. Has won every footrace since she was a chick. Insufferable about it.",
-      "description": "Deep black feathers, solid coloring, tall lanky body, small comb, smug grin, cute with larger eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1270,8 +1172,6 @@
         "expr": "happy"
       },
       "trait_string": "color_black; pattern_solid; body_tall; comb_small; expr_happy",
-      "bio": "Genuinely happy all the time. The other chickens find this exhausting and suspicious.",
-      "description": "Deep black feathers, solid coloring, tall lanky body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1295,8 +1195,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_solid; body_tall; comb_small; expr_surprised; vibe_cute",
-      "bio": "Always surprised, always cute. Has one of those faces. Bookworm and Ballerina Beakson's distant cousin.",
-      "description": "Off-white feathers, solid coloring, tall lanky body, small comb, wide-eyed surprised look, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1320,8 +1218,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gold; pattern_solid; body_tall; comb_big; expr_happy; vibe_cute",
-      "bio": "The rising star. Beautiful voice, knows it. Diva Plume hates her on principle.",
-      "description": "Warm yellow-gold feathers, solid coloring, tall lanky body, big floppy comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1345,8 +1241,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_purple; pattern_solid; body_tall; comb_big; expr_surprised; vibe_fancy",
-      "bio": "The established diva. Was the rising star, once. Has not forgiven Diva Peep for being younger.",
-      "description": "Muted lavender-purple feathers, solid coloring, tall lanky body, big floppy comb, wide-eyed surprised look, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1370,8 +1264,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_spotted; body_tall; comb_small; expr_happy; vibe_cute",
-      "bio": "Noodle Hen's much taller cousin. Same flexibility, more reach, twice the trouble.",
-      "description": "Off-white feathers with large darker spots, tall lanky body, small comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1395,8 +1287,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gray; pattern_solid; body_tall; comb_small; expr_happy; vibe_cute",
-      "bio": "Spicy nickname, sweet personality. Bakes alongside Pinky Roost on Sundays. Was the first to realize that \"helpful chick named Banana\" is on a recon mission. Hasn't told anyone.",
-      "description": "Slate gray-blue feathers, solid coloring, tall lanky body, small comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1419,8 +1309,6 @@
         "expr": "happy"
       },
       "trait_string": "color_brown; pattern_spotted; body_tall; comb_small; expr_happy",
-      "bio": "The wild Eggbert cousin. Has definitely committed crimes. Big Eggbert pretends she doesn't exist.",
-      "description": "Earthy brown feathers with large darker spots, tall lanky body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1444,8 +1332,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_gray; pattern_solid; body_tall; comb_small; expr_grumpy; vibe_tough",
-      "bio": "Prickly inside and out. Lives alone by choice. Will share water with you in a drought, though.",
-      "description": "Slate gray-blue feathers, solid coloring, tall lanky body, small comb, grumpy frown, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1469,8 +1355,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_green; pattern_solid; body_tall; comb_small; expr_happy; vibe_tough",
-      "bio": "Green and proud of it. Tough but fair. Runs the coop's pickling operation, which is also a front for something.",
-      "description": "Muted sage-green feathers, solid coloring, tall lanky body, small comb, happy smile, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1494,8 +1378,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gold; pattern_solid; body_tall; comb_big; expr_happy; vibe_cute",
-      "bio": "Big personality, bigger comb. Announces her arrival to every room. Universally beloved anyway.",
-      "description": "Warm yellow-gold feathers, solid coloring, tall lanky body, big floppy comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1519,8 +1401,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_gold; pattern_spotted; body_tall; comb_small; expr_happy; vibe_tough",
-      "bio": "Comet Ruffles' younger sister. Faster. Knows it. Is gracious about it, which somehow makes it worse.",
-      "description": "Warm yellow-gold feathers with large darker spots, tall lanky body, small comb, happy smile, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1544,8 +1424,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_striped; body_sleek; comb_small; expr_smug; vibe_cute",
-      "bio": "Confident in everything she does. Half of those things go badly. The confidence is unaffected.",
-      "description": "Earthy brown feathers with darker stripes, sleek trim body, small comb, smug grin, cute with larger eyes and softer features.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1569,8 +1447,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_pink; pattern_solid; body_sleek; comb_small; expr_happy; vibe_fancy",
-      "bio": "The Eggbert who ran away to sea. Came back fancy. Big Eggbert finds this worse than the running away.",
-      "description": "Soft pastel pink feathers, solid coloring, sleek trim body, small comb, happy smile, fancy upright posture with refined feathers.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1593,8 +1469,6 @@
         "expr": "happy"
       },
       "trait_string": "color_black; pattern_solid; body_sleek; comb_small; expr_happy",
-      "bio": "Zippy Wing's chiller sibling. Same speed, less commentary. Generally preferred.",
-      "description": "Deep black feathers, solid coloring, sleek trim body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1618,8 +1492,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_solid; body_sleek; comb_small; expr_happy; vibe_cute",
-      "bio": "Always composed. Has cried exactly once, in private, on a Tuesday. The others suspect this happened.",
-      "description": "Off-white feathers, solid coloring, sleek trim body, small comb, happy smile, cute with larger eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1642,8 +1514,6 @@
         "expr": "smug"
       },
       "trait_string": "color_gray; pattern_solid; body_sleek; comb_big; expr_smug",
-      "bio": "The spookiest Talon. Reads tarot for the family. Captain Talon takes it very seriously.",
-      "description": "Dark gray solid plumage, sleek trim body, big floppy comb, smug confident expression. Mysterious tarot-reading energy.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1667,8 +1537,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_red; pattern_spotted; body_sleek; comb_small; expr_grumpy; vibe_fancy",
-      "bio": "Fast, fancy, and frankly tired of this competition with Speedy Coopworth.",
-      "description": "Red-orange feathers with large darker spots, sleek trim body, small comb, grumpy frown, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1692,8 +1560,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_speckled; body_sleek; comb_small; expr_happy; vibe_cute",
-      "bio": "Baywatch Quill and Baywatch Cluck's much younger relative. Avoiding the family lifeguard drama entirely.",
-      "description": "Earthy brown feathers with many small darker flecks, sleek trim body, small comb, happy smile, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1717,8 +1583,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_purple; pattern_speckled; body_sleek; comb_big; expr_happy; vibe_cute",
-      "bio": "Claims to be a wizard. The other chickens humor her. One time, things floated. We don't talk about that.",
-      "description": "Muted lavender-purple feathers with many small darker flecks, sleek trim body, big floppy comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1741,8 +1605,6 @@
         "expr": "happy"
       },
       "trait_string": "color_red; pattern_solid; body_sleek; comb_small; expr_happy",
-      "bio": "Throws the coop's annual luau. Best dancer here. Don't tell Diva Peep.",
-      "description": "Red-orange feathers, solid coloring, sleek trim body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1765,8 +1627,6 @@
         "expr": "happy"
       },
       "trait_string": "color_brown; pattern_spotted; body_sleek; comb_small; expr_happy",
-      "bio": "The Talon cousin who married rich. Sends Captain Talon a fruit basket every Solstice.",
-      "description": "Earthy brown feathers with large darker spots, sleek trim body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1790,8 +1650,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_white; pattern_spotted; body_sleek; comb_small; expr_happy; vibe_tough",
-      "bio": "Looks soft. Bench presses three eggs at a time. Don't underestimate her.",
-      "description": "Off-white feathers with large darker spots, sleek trim body, small comb, happy smile, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1815,8 +1673,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_spotted; body_sleek; comb_small; expr_happy; vibe_cute",
-      "bio": "Maple Coopworth's calmer cousin. Has the same happiness, half the volume.",
-      "description": "Off-white feathers with large darker spots, sleek trim body, small comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1839,8 +1695,6 @@
         "expr": "smug"
       },
       "trait_string": "color_red; pattern_solid; body_sleek; comb_big; expr_smug",
-      "bio": "Smug for very good reason: she's right about most things. Annoying about being right.",
-      "description": "Red-orange feathers, solid coloring, sleek trim body, big floppy comb, smug grin.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1863,8 +1717,6 @@
         "expr": "sleepy"
       },
       "trait_string": "color_brown; pattern_striped; body_sleek; comb_big; expr_sleepy",
-      "bio": "Sleepy, slightly haunted, somehow always knows the gossip. Goes to bed at 6.",
-      "description": "Earthy brown feathers with darker stripes, sleek trim body, big floppy comb, sleepy half-closed eyes, slightly spooky.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1887,8 +1739,6 @@
         "expr": "grumpy"
       },
       "trait_string": "color_gold; pattern_solid; body_sleek; comb_small; expr_grumpy",
-      "bio": "The Talon cousin who didn't marry rich. Holds it against Prism in a chicken-passive-aggressive way.",
-      "description": "Warm yellow-gold feathers, solid coloring, sleek trim body, small comb, grumpy frown.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1912,8 +1762,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_brown; pattern_striped; body_fluffy; comb_big; expr_grumpy; vibe_tough",
-      "bio": "Daisy's ex. They had a Thing. Nobody asks about it anymore, especially after that one Tuesday.",
-      "description": "Earthy brown feathers with horizontal darker stripes, extra-fluffy puffed-out body, big floppy comb falling to one side, grumpy frown, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1937,8 +1785,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
-      "bio": "Cute, grumpy, nocturnal. Pinky Roost feeds her on the late shift. They're friends now.",
-      "description": "Off-white cream feathers, solid coloring, extra-fluffy body, small comb, grumpy frown but cute with large eyes and small cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1962,8 +1808,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gold; pattern_spotted; body_fluffy; comb_small; expr_smug; vibe_cute",
-      "bio": "Co-runs the Mango restaurant. Got fired by Mango McCluck once. Got hired back. They're sisters.",
-      "description": "Warm yellow-gold feathers with large darker spots, extra-fluffy body, small comb, smug grin, cute with cheek blush.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -1987,8 +1831,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_black; pattern_solid; body_fluffy; comb_big; expr_happy; vibe_fancy",
-      "bio": "Runs the coop library. Fancy, opinionated, lets you check out books anyway. There's a chick who keeps coming in at night. Bookworm thinks she's reading. Bookworm is a romantic.",
-      "description": "Deep black feathers, solid coloring, extra-fluffy body, big floppy comb, happy smile, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2011,8 +1853,6 @@
         "expr": "happy"
       },
       "trait_string": "color_red; pattern_solid; body_fluffy; comb_small; expr_happy",
-      "bio": "Maple's faster cousin. In the rivalry with Speedy Feathers and somehow always loses by a feather.",
-      "description": "Red-orange feathers, solid coloring, extra-fluffy body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2036,8 +1876,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_striped; body_fluffy; comb_small; expr_grumpy; vibe_cute",
-      "bio": "Pinky Roost's tech-savvy distant cousin. Built the coop's first scoreboard. It catches fire occasionally.",
-      "description": "Earthy brown feathers with darker stripes, extra-fluffy body, small comb, grumpy frown, cute with larger eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2061,8 +1899,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
-      "bio": "Wins everything by accident. Apologizes for it. Wins the apology too.",
-      "description": "Off-white feathers, solid coloring, extra-fluffy body, small comb, grumpy frown, cute with larger eyes.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2086,8 +1922,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_gold; pattern_solid; body_fluffy; comb_small; expr_surprised; vibe_fancy",
-      "bio": "Spookily beautiful. Stares at things slightly too long. Knows what you're thinking, probably.",
-      "description": "Warm yellow-gold feathers, solid coloring, extra-fluffy body, small comb, wide-eyed surprised look, slightly spooky with glassy eye.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2110,8 +1944,6 @@
         "expr": "happy"
       },
       "trait_string": "color_pink; pattern_solid; body_fluffy; comb_small; expr_happy",
-      "bio": "Took the Talon family business literally. Captain Talon is so proud. So embarrassed. Both. Recently jealous of a *chick* who's getting Captain's attention.",
-      "description": "Soft pastel pink feathers, solid coloring, extra-fluffy body, small comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2134,8 +1966,6 @@
         "expr": "happy"
       },
       "trait_string": "color_white; pattern_spotted; body_fluffy; comb_big; expr_happy",
-      "bio": "The actual academic. Semi-retired. Bookworm Cluck's mentor. They argue about Greek philosophy. Is increasingly certain a chick is casing the library.",
-      "description": "Off-white feathers with large darker spots, extra-fluffy body, big floppy comb, happy smile.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2159,8 +1989,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gray; pattern_solid; body_fluffy; comb_big; expr_smug; vibe_cute",
-      "bio": "Lady Cluckles' sister. Was supposed to inherit. Didn't. Got smug about it instead.",
-      "description": "Slate gray-blue feathers, solid coloring, extra-fluffy body, big floppy comb, smug grin, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2184,8 +2012,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_pink; pattern_speckled; body_fluffy; comb_big; expr_smug; vibe_cute",
-      "bio": "Pirate Talon's cooler younger sibling. Throws the coop's wildest parties. Inviting only.",
-      "description": "Soft pastel pink feathers with many small darker flecks, extra-fluffy body, big floppy comb, smug grin, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2209,8 +2035,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
-      "bio": "Builds gadgets. Most don't work. The ones that do are concerning.",
-      "description": "Off-white feathers, solid coloring, extra-fluffy body, small comb, grumpy frown, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2234,8 +2058,6 @@
         "vibe": "tough"
       },
       "trait_string": "color_multi; pattern_speckled; body_fluffy; comb_small; expr_smug; vibe_tough",
-      "bio": "The \"we don't talk about him\" Eggbert. Multi-colored, multi-opinioned, on a list somewhere.",
-      "description": "Three distinct color patches (calico-style: white, gray, brown) with many small darker flecks, extra-fluffy body, small comb, smug grin, tough-looking.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2259,8 +2081,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_purple; pattern_solid; body_fluffy; comb_big; expr_happy; vibe_cute",
-      "bio": "The musician Talon. Doesn't know about the pirate stuff. The family wants to keep it that way.",
-      "description": "Purple solid plumage, fluffy round body, big floppy comb, happy cheerful expression. Cute vibrant musician.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2284,8 +2104,6 @@
         "vibe": "fancy"
       },
       "trait_string": "color_brown; pattern_spotted; body_fluffy; comb_big; expr_sleepy; vibe_fancy",
-      "bio": "Disco Drumstick's old hype woman. Tired now. Still shows up to every set. Sleeps through some.",
-      "description": "Earthy brown feathers with large darker spots, extra-fluffy body, big floppy comb, sleepy half-closed eyes, fancy refined posture.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2309,8 +2127,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gray; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
-      "bio": "The youngest Eggbert. Just wants peace. Will never get it. Big Eggbert is her grandfather.",
-      "description": "Slate gray-blue feathers, solid coloring, extra-fluffy body, small comb, grumpy frown, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2334,8 +2150,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_red; pattern_solid; body_fluffy; comb_big; expr_sleepy; vibe_cute",
-      "bio": "Bookworm and Ballerina's much sleepier cousin. Cute, fluffy, secretly the wisest of the three.",
-      "description": "Red-orange feathers, solid coloring, extra-fluffy body, big floppy comb, sleepy half-closed eyes, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2359,8 +2173,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_pink; pattern_solid; body_fluffy; comb_big; expr_happy; vibe_cute",
-      "bio": "Looks like an angel. Acts like one. Suspicious. Pinky Roost has her eye on her.",
-      "description": "Soft pastel pink feathers, solid coloring, extra-fluffy body, big floppy comb, happy smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2384,8 +2196,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_multi; pattern_solid; body_fluffy; comb_big; expr_grumpy; vibe_cute",
-      "bio": "Multi-colored, multi-opinioned, mildly grumpy. Distant relative of Pepper Feathers. They don't talk.",
-      "description": "Three distinct color patches (calico-style: black, white, gray), solid coloring within each patch, extra-fluffy body, big floppy comb, grumpy frown, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2409,8 +2219,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_pink; pattern_solid; body_chick; comb_small; expr_smug; vibe_cute",
-      "bio": "Boss of the chick gang. Tiny, three years old in chicken-time, runs a small but functional crime syndicate. Demands sweets. Gets sweets. Pinky Roost keeps her stocked, mostly out of self-preservation. *(Named by Abby, age 3.)*",
-      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy soft pink fuzz, no real comb, smug confident expression with a slight smirk, cute but knows she's in charge.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2434,8 +2242,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_white; pattern_spotted; body_chick; comb_small; expr_happy; vibe_cute",
-      "bio": "The chick gang's getaway driver. Boats only. Has been spotted in serious meetings with the Talon family. They've already named the boat. *(Named by Abby, age 3.)*",
-      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy white fuzz with darker spots, no real comb, happy excited expression, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2459,8 +2265,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gold; pattern_solid; body_chick; comb_small; expr_happy; vibe_cute",
-      "bio": "The chick gang's snack-runner and unofficial second-in-command. Hangs around Pinky Roost's kitchen \"just to help.\" Pinky knows what she's actually doing. Pinky lets it happen. *(Named by Abby, age 3.)*",
-      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy bright yellow-gold fuzz, no real comb, happy sunny smile, extra cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2484,8 +2288,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_pink; pattern_solid; body_chick; comb_small; expr_grumpy; vibe_cute",
-      "bio": "The chick gang's muscle. Tiny, fierce, devoted to Abby. Recently \"convinced\" Daisy to give up the location of her best worm stash. Daisy maintains she just forgot where she buried them. *(Named by Abby, age 3.)*",
-      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy soft pink fuzz, no real comb, grumpy determined frown, cute but ready to fight.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2509,8 +2311,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_brown; pattern_solid; body_chick; comb_small; expr_sleepy; vibe_cute",
-      "bio": "The chick gang's alibi. Always seems to be napping somewhere very visible whenever something goes down. Frequently napping near the human's sock drawer. Socks keep going missing. Lukey is asleep. The Builder twins are blaming each other. *(Named by Abby, age 3.)*",
-      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy soft brown fuzz, no real comb, sleepy half-closed eyes, calm and chill.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2534,8 +2334,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_multi; pattern_speckled; body_chick; comb_small; expr_surprised; vibe_cute",
-      "bio": "The chick gang's distraction. Once crashed a Disco Drumstick set screaming, knocked over the speakers, ended Disco's gig early. Disco is furious. DJ Roost was secretly relieved. Banana stole all the snacks while everyone was watching. *(Named by Abby, age 3.)*",
-      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, two-tone black-and-white downy fuzz like a panda, no real comb, wide surprised eyes, dramatic and cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2559,8 +2357,6 @@
         "vibe": "cute"
       },
       "trait_string": "color_gold; pattern_spotted; body_chick; comb_small; expr_happy; vibe_cute",
-      "bio": "The chick gang's lookout. Tallest chick (still tiny). Has been spotted in the library at night peering at high shelves. Bookworm Cluck thinks she's reading. Professor Gizzard is less convinced. *(Named by Abby, age 3.)*",
-      "description": "TINY BABY CHICK — but notably the tallest of the chicks (still tiny, but stretched up). Big head, downy gold fuzz with darker brown spots, no real comb, happy gentle smile, cute.",
       "anchors": {
         "hat": null,
         "face": null,
@@ -2582,5 +2378,8 @@
       "chicks_cluster (c_096-c_102)": "1024x1024"
     },
     "scaling_note": "Source images vary in size between clusters. Scale at render time using CSS (image-rendering: pixelated) or canvas drawImage(). Display dimensions on the 10x10 grid are typically 64-96px square, so all sources are heavily downscaled — the size difference between clusters is not visually significant at game scale."
+  },
+  "companion_files": {
+    "bios.json": "Backstory and visual descriptions, keyed by chicken id"
   }
 }
