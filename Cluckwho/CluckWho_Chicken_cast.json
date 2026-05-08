@@ -1,0 +1,2586 @@
+{
+  "schema_version": "1.2",
+  "description": "Master roster of all CluckWho chickens. v1.2: image_url added pointing to GitHub-hosted PNG sprites. v1.1: spec mismatches corrected (c_044, c_045, c_065, c_090); vibe_spooky removed from taxonomy; backgrounds verified transparent across the cast. Anchor points TBD pending ChickenItemAdjuster calibration pass.",
+  "cast_size": 102,
+  "grid_size": 100,
+  "off_grid_count": 2,
+  "trait_taxonomy": {
+    "color": [
+      "red",
+      "white",
+      "brown",
+      "black",
+      "gold",
+      "gray",
+      "green",
+      "pink",
+      "purple",
+      "multi"
+    ],
+    "pattern": [
+      "solid",
+      "striped",
+      "spotted",
+      "speckled"
+    ],
+    "body": [
+      "round",
+      "tall",
+      "sleek",
+      "fluffy",
+      "chick"
+    ],
+    "comb": [
+      "small",
+      "big"
+    ],
+    "expr": [
+      "happy",
+      "grumpy",
+      "smug",
+      "sleepy",
+      "surprised"
+    ],
+    "vibe": [
+      "cute",
+      "tough",
+      "fancy"
+    ]
+  },
+  "chickens": [
+    {
+      "id": "c_001",
+      "name": "Pinky Roost",
+      "image": "assets/chickens/c_001.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_white; pattern_solid; body_round; comb_small; expr_happy",
+      "bio": "The unofficial mayor of the coop. Bakes for everyone, knows everyone's business, definitely uses both against you. Aware that Abby is \"stealing\" her cookies. Replaces them every morning anyway.",
+      "description": "Off-white cream feathers, solid coloring, round chubby body, small comb, happy smile with wide round eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_001.png"
+    },
+    {
+      "id": "c_002",
+      "name": "Disco Drumstick",
+      "image": "assets/chickens/c_002.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "smug"
+      },
+      "trait_string": "color_red; pattern_solid; body_round; comb_small; expr_smug",
+      "bio": "Lives for Friday nights. Has a vendetta against the rooster. Will not elaborate. Always wins. Currently has a *new* vendetta against a chick named Panda.",
+      "description": "Red-orange feathers, solid coloring, round chubby body, small comb, smug grin with half-lidded confident eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_002.png"
+    },
+    {
+      "id": "c_003",
+      "name": "Baywatch Quill",
+      "image": "assets/chickens/c_003.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "big",
+        "expr": "smug",
+        "vibe": "tough"
+      },
+      "trait_string": "color_brown; pattern_solid; body_round; comb_big; expr_smug; vibe_tough",
+      "bio": "Was a lifeguard once. Tells you about it within thirty seconds of meeting. Still has the whistle.",
+      "description": "Earthy brown feathers, solid coloring, round chubby body, big floppy comb, smug grin, tough-looking with a weathered feel.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_003.png"
+    },
+    {
+      "id": "c_004",
+      "name": "Henrietta the Bold",
+      "image": "assets/chickens/c_004.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "smug"
+      },
+      "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_smug",
+      "bio": "Reginald's rebound. Doesn't know that yet. Walks into rooms like she owns them, which she sometimes does.",
+      "description": "Deep black feathers with subtle blue highlights, solid coloring, round chubby body, small comb, smug grin.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_004.png"
+    },
+    {
+      "id": "c_005",
+      "name": "DJ Roost",
+      "image": "assets/chickens/c_005.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
+      "bio": "Disco Drumstick's protégé. The only chicken Disco hasn't picked a fight with. Wears tiny headphones. Was secretly grateful to a chick named Panda.",
+      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, happy smile, cute with larger eyes and cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_005.png"
+    },
+    {
+      "id": "c_006",
+      "name": "Pinky Beakson",
+      "image": "assets/chickens/c_006.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_red; pattern_solid; body_round; comb_small; expr_happy; vibe_tough",
+      "bio": "Pinky Roost's sister. Will fight you for Pinky's honor. Pinky has not asked her to do this. They aren't speaking.",
+      "description": "Red-orange feathers, solid coloring, round chubby body, small comb, happy smile, tough-looking with broad confident stance.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_006.png"
+    },
+    {
+      "id": "c_007",
+      "name": "Astro Nugget",
+      "image": "assets/chickens/c_007.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_smug; vibe_cute",
+      "bio": "Convinced she came from space. Has charts. The charts are made of breadcrumbs and feathers but they're surprisingly compelling.",
+      "description": "Deep black feathers, solid coloring, round chubby body, small comb, smug grin, cute with larger eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_007.png"
+    },
+    {
+      "id": "c_008",
+      "name": "Banana Nugget",
+      "image": "assets/chickens/c_008.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "spotted",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_spotted; body_round; comb_small; expr_happy; vibe_cute",
+      "bio": "Astro's cousin. Doesn't believe the space thing but humors her. Brings actual snacks to the meetings.",
+      "description": "Earthy brown feathers with large darker spots, round chubby body, small comb, happy smile, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_008.png"
+    },
+    {
+      "id": "c_009",
+      "name": "Frosty Talon",
+      "image": "assets/chickens/c_009.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "white",
+        "pattern": "spotted",
+        "body": "round",
+        "comb": "big",
+        "expr": "happy"
+      },
+      "trait_string": "color_white; pattern_spotted; body_round; comb_big; expr_happy",
+      "bio": "The legitimate Talon child. Pretends not to know what the rest of the family does for a living.",
+      "description": "Off-white feathers with large darker spots, round chubby body, big floppy comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_009.png"
+    },
+    {
+      "id": "c_010",
+      "name": "Turbo Fluff",
+      "image": "assets/chickens/c_010.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "green",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_green; pattern_solid; body_round; comb_small; expr_happy",
+      "bio": "Smiles a lot. Says less. The other chickens are starting to suspect she's listening.",
+      "description": "Muted sage-green feathers, solid coloring, round chubby body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_010.png"
+    },
+    {
+      "id": "c_011",
+      "name": "Big Eggbert",
+      "image": "assets/chickens/c_011.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "gray",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gray; pattern_striped; body_round; comb_small; expr_grumpy; vibe_cute",
+      "bio": "Patriarch of the Eggberts. Perpetually disappointed in everyone, including chickens he's never met.",
+      "description": "Slate gray-blue feathers with darker stripes, round chubby body, small comb, grumpy frown, cute with larger eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_011.png"
+    },
+    {
+      "id": "c_012",
+      "name": "Pride Peep",
+      "image": "assets/chickens/c_012.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "white",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_white; pattern_striped; body_round; comb_small; expr_happy",
+      "bio": "Helps everyone with everything. Refuses to let anyone help her with anything. We're working on it.",
+      "description": "Off-white feathers with darker stripes, round chubby body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_012.png"
+    },
+    {
+      "id": "c_013",
+      "name": "Pixel Drumstick",
+      "image": "assets/chickens/c_013.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "sleepy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_sleepy; vibe_cute",
+      "bio": "Always sleepy, always sweet. Disco Drumstick's much chiller cousin. They are not close.",
+      "description": "Deep black feathers, solid coloring, round chubby body, small comb, sleepy half-closed eyes, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_013.png"
+    },
+    {
+      "id": "c_014",
+      "name": "Baywatch Cluck",
+      "image": "assets/chickens/c_014.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "white",
+        "pattern": "speckled",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_white; pattern_speckled; body_round; comb_small; expr_happy; vibe_tough",
+      "bio": "Baywatch Quill's actual replacement at the lifeguard tower. Quill won't speak to her.",
+      "description": "Off-white feathers with many small darker flecks, round chubby body, small comb, happy smile, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_014.png"
+    },
+    {
+      "id": "c_015",
+      "name": "Rockin Plume",
+      "image": "assets/chickens/c_015.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "multi",
+        "pattern": "spotted",
+        "body": "round",
+        "comb": "big",
+        "expr": "grumpy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_multi; pattern_spotted; body_round; comb_big; expr_grumpy; vibe_tough",
+      "bio": "Three colors, three opinions, one bad attitude. Started a band. Disbanded it after one practice.",
+      "description": "Three distinct color patches (calico-style: red, white, brown), with large darker spots layered on top, round chubby body, big floppy comb, grumpy frown, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_015.png"
+    },
+    {
+      "id": "c_016",
+      "name": "Clover Scramble",
+      "image": "assets/chickens/c_016.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "gold",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_gold; pattern_striped; body_round; comb_small; expr_smug; vibe_fancy",
+      "bio": "Lucky in everything except love. Would rather not discuss it, thank you.",
+      "description": "Warm yellow-gold feathers with darker stripes, round chubby body, small comb, smug grin, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_016.png"
+    },
+    {
+      "id": "c_017",
+      "name": "Builder Nugget",
+      "image": "assets/chickens/c_017.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
+      "bio": "Builds nests for free. Builds them well. Has a twin she does not acknowledge. Recently accused of stealing socks. She didn't. (Probably.)",
+      "description": "Off-white feathers, solid coloring, round chubby body, small comb, happy smile, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_017.png"
+    },
+    {
+      "id": "c_018",
+      "name": "Mango Nugget",
+      "image": "assets/chickens/c_018.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "green",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_green; pattern_solid; body_round; comb_big; expr_happy; vibe_tough",
+      "bio": "Runs the Mango family restaurant. Looks soft. Has thrown a chicken out a window.",
+      "description": "Muted sage-green feathers, solid coloring, round chubby body, big floppy comb, happy smile, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_018.png"
+    },
+    {
+      "id": "c_019",
+      "name": "Heart",
+      "image": "assets/chickens/c_019.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
+      "bio": "Just a really nice chicken. That's the whole bio. The other chickens find this suspicious.",
+      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, happy smile, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_019.png"
+    },
+    {
+      "id": "c_020",
+      "name": "Builder Ruffles",
+      "image": "assets/chickens/c_020.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_black; pattern_solid; body_round; comb_big; expr_happy; vibe_tough",
+      "bio": "Builds nests with great enthusiasm and zero structural integrity. Has a twin she does not acknowledge. Recently accused of stealing socks. She also didn't. (Probably.)",
+      "description": "Deep black feathers, solid coloring, round chubby body, big floppy comb, happy smile, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_020.png"
+    },
+    {
+      "id": "c_021",
+      "name": "Rockin Fluff",
+      "image": "assets/chickens/c_021.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "red",
+        "pattern": "speckled",
+        "body": "round",
+        "comb": "big",
+        "expr": "happy"
+      },
+      "trait_string": "color_red; pattern_speckled; body_round; comb_big; expr_happy",
+      "bio": "Rockin Plume's drummer. The band lasted one practice. Still keeps the drumsticks in her nest, just in case.",
+      "description": "Red-orange feathers with many small darker flecks, round chubby body, big floppy comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_021.png"
+    },
+    {
+      "id": "c_022",
+      "name": "Cluck Pecker",
+      "image": "assets/chickens/c_022.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "sleepy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_sleepy; vibe_cute",
+      "bio": "Saw the whole Daisy/Reginald thing go down. Also saw the worm vault thing. Won't say a word about either. Sleeps a lot, allegedly.",
+      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, sleepy half-closed eyes, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_022.png"
+    },
+    {
+      "id": "c_023",
+      "name": "Pinky Beak",
+      "image": "assets/chickens/c_023.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "gold",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "big",
+        "expr": "surprised",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_gold; pattern_striped; body_round; comb_big; expr_surprised; vibe_fancy",
+      "bio": "Pinky Roost's cousin. Embarrassed by the family. Pretends she's from a different coop.",
+      "description": "Warm yellow-gold feathers with darker stripes, round chubby body, big floppy comb, wide-eyed surprised look, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_023.png"
+    },
+    {
+      "id": "c_024",
+      "name": "Cocoa Crest",
+      "image": "assets/chickens/c_024.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "surprised",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_surprised; vibe_fancy",
+      "bio": "Stunned by everything. Constantly. Genuinely. People keep checking on her. She's fine.",
+      "description": "Deep black feathers, solid coloring, round chubby body, small comb, wide-eyed surprised look, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_024.png"
+    },
+    {
+      "id": "c_025",
+      "name": "Bookworm Beakson",
+      "image": "assets/chickens/c_025.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "red",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_red; pattern_striped; body_round; comb_small; expr_happy",
+      "bio": "Paranormal investigator. Has a twin she communicates with telepathically (or claims to).",
+      "description": "Red-orange feathers with darker stripes, round chubby body, small comb, happy smile, slightly spooky with glassy eye.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_025.png"
+    },
+    {
+      "id": "c_026",
+      "name": "Ninja Quill",
+      "image": "assets/chickens/c_026.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_red; pattern_solid; body_round; comb_small; expr_happy; vibe_cute",
+      "bio": "Tiny, focused, terrifying. Allegedly knows three forms of martial arts. Has never used any of them.",
+      "description": "Red-orange feathers, solid coloring, round chubby body, small comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_026.png"
+    },
+    {
+      "id": "c_027",
+      "name": "Maple Eggbert",
+      "image": "assets/chickens/c_027.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "spotted",
+        "body": "round",
+        "comb": "big",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_spotted; body_round; comb_big; expr_grumpy; vibe_cute",
+      "bio": "The responsible Eggbert. Runs Big's farm. Does not get a raise. Does not ask for one.",
+      "description": "Earthy brown feathers with large darker spots, round chubby body, big floppy comb, grumpy frown, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_027.png"
+    },
+    {
+      "id": "c_028",
+      "name": "Comet Ruffles",
+      "image": "assets/chickens/c_028.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "grumpy"
+      },
+      "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_grumpy",
+      "bio": "Fast. Faster than you think. Faster than she needs to be. Has nowhere to go.",
+      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, grumpy frown.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_028.png"
+    },
+    {
+      "id": "c_029",
+      "name": "Snowball Beak",
+      "image": "assets/chickens/c_029.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "pink",
+        "pattern": "spotted",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_pink; pattern_spotted; body_round; comb_small; expr_happy; vibe_fancy",
+      "bio": "Cold weather royalty. Refuses to come out in the summer. Has a glamorous winter coop somewhere.",
+      "description": "Soft pastel pink feathers with large darker spots, round chubby body, small comb, happy smile, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_029.png"
+    },
+    {
+      "id": "c_030",
+      "name": "Cloudy Wing",
+      "image": "assets/chickens/c_030.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "surprised"
+      },
+      "trait_string": "color_gray; pattern_solid; body_round; comb_small; expr_surprised",
+      "bio": "Always slightly startled. Hasn't slept properly since the Incident. Won't tell you what the Incident was.",
+      "description": "Slate gray-blue feathers, solid coloring, round chubby body, small comb, wide-eyed surprised look.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_030.png"
+    },
+    {
+      "id": "c_031",
+      "name": "Mochi Nugget",
+      "image": "assets/chickens/c_031.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "gray",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gray; pattern_striped; body_round; comb_small; expr_smug; vibe_cute",
+      "bio": "Soft outside, sharper than expected. Astro Nugget's cousin who actually likes the space charts.",
+      "description": "Slate gray-blue feathers with darker stripes, round chubby body, small comb, smug grin, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_031.png"
+    },
+    {
+      "id": "c_032",
+      "name": "Mango McCluck",
+      "image": "assets/chickens/c_032.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "purple",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "big",
+        "expr": "grumpy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_purple; pattern_striped; body_round; comb_big; expr_grumpy; vibe_tough",
+      "bio": "Runs the Mango restaurant's back kitchen. Fired Mango Hen once. Got hired back the next day. Long story.",
+      "description": "Muted lavender-purple feathers with darker stripes, round chubby body, big floppy comb, grumpy frown, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_032.png"
+    },
+    {
+      "id": "c_033",
+      "name": "Pride",
+      "image": "assets/chickens/c_033.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "speckled",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_brown; pattern_speckled; body_round; comb_small; expr_happy",
+      "bio": "No nickname, no last name, just Pride. Doesn't need any of those.",
+      "description": "Earthy brown feathers with many small darker flecks, round chubby body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_033.png"
+    },
+    {
+      "id": "c_034",
+      "name": "Pumpkin Beak",
+      "image": "assets/chickens/c_034.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "white",
+        "pattern": "striped",
+        "body": "round",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_striped; body_round; comb_small; expr_smug; vibe_cute",
+      "bio": "Year-round pumpkin enthusiast. Has opinions about pumpkin spice that she will share unsolicited.",
+      "description": "Off-white feathers with darker stripes, round chubby body, small comb, smug grin, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_034.png"
+    },
+    {
+      "id": "c_035",
+      "name": "Noodle Hen",
+      "image": "assets/chickens/c_035.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "brown",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_brown; pattern_solid; body_round; comb_small; expr_happy; vibe_tough",
+      "bio": "Stretchy. Tough. Has been seen squeezing into spaces that should not have accommodated a chicken.",
+      "description": "Earthy brown feathers, solid coloring, round chubby body, small comb, happy smile, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_035.png"
+    },
+    {
+      "id": "c_036",
+      "name": "Snowball Squawk",
+      "image": "assets/chickens/c_036.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "pink",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_pink; pattern_solid; body_round; comb_big; expr_happy; vibe_fancy",
+      "bio": "Snowball Beak's louder sister. Comes out of the winter coop more. Drinks too much hot cocoa.",
+      "description": "Soft pastel pink feathers, solid coloring, round chubby body, big floppy comb, happy smile, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_036.png"
+    },
+    {
+      "id": "c_037",
+      "name": "Puddle Beak",
+      "image": "assets/chickens/c_037.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "round",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_black; pattern_solid; body_round; comb_small; expr_happy",
+      "bio": "Always finds a puddle. Always splashes in it. Has ruined three of Pinky Beak's outfits.",
+      "description": "Deep black feathers, solid coloring, round chubby body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_037.png"
+    },
+    {
+      "id": "c_038",
+      "name": "Honeycomb Wing",
+      "image": "assets/chickens/c_038.png",
+      "body_cluster": "Round",
+      "traits": {
+        "color": "purple",
+        "pattern": "spotted",
+        "body": "round",
+        "comb": "small",
+        "expr": "sleepy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_purple; pattern_spotted; body_round; comb_small; expr_sleepy; vibe_tough",
+      "bio": "Sleepy and tough is a combination she has fully committed to. Don't wake her up unless it's important.",
+      "description": "Muted lavender-purple feathers with large darker spots, round chubby body, small comb, sleepy half-closed eyes, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_038.png"
+    },
+    {
+      "id": "c_039",
+      "name": "Daisy",
+      "image": "assets/chickens/c_039.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_red; pattern_solid; body_tall; comb_small; expr_grumpy; vibe_tough",
+      "bio": "Won't talk about how she got the scar. Won't talk about much, honestly. Buy her a worm and she'll soften, maybe — though her stash isn't what it used to be. (She insists she just forgot where she buried them.)",
+      "description": "Red-orange feathers, solid coloring, tall and lanky body, small comb, grumpy frown, tough-looking with a faintly scarred eyebrow.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_039.png"
+    },
+    {
+      "id": "c_040",
+      "name": "Nacho Hen",
+      "image": "assets/chickens/c_040.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "smug"
+      },
+      "trait_string": "color_gray; pattern_solid; body_tall; comb_small; expr_smug",
+      "bio": "Smug for no clear reason. Possibly knows something. Probably doesn't. Either way, she's enjoying it.",
+      "description": "Slate gray-blue feathers, solid coloring, tall lanky body, small comb, smug grin.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_040.png"
+    },
+    {
+      "id": "c_041",
+      "name": "Goblin Hen",
+      "image": "assets/chickens/c_041.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gold",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gold; pattern_solid; body_tall; comb_small; expr_happy; vibe_cute",
+      "bio": "Genuinely sweet. Genuinely doesn't know what she did to make Reginald hate her. (She knows. She knows exactly what she did.)",
+      "description": "Warm yellow-gold feathers, solid coloring, tall lanky body, small comb, happy smile, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_041.png"
+    },
+    {
+      "id": "c_042",
+      "name": "Pinky Peep",
+      "image": "assets/chickens/c_042.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "white",
+        "pattern": "spotted",
+        "body": "tall",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_white; pattern_spotted; body_tall; comb_small; expr_grumpy; vibe_tough",
+      "bio": "The Pinky family black sheep. Left the coop years ago. Came back with a scar and stories she won't tell.",
+      "description": "Off-white feathers with large dark spots, tall lanky body, small comb, grumpy frown, tough-looking with scarred eyebrow.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_042.png"
+    },
+    {
+      "id": "c_043",
+      "name": "Ruby Beak",
+      "image": "assets/chickens/c_043.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gold",
+        "pattern": "striped",
+        "body": "tall",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_gold; pattern_striped; body_tall; comb_small; expr_grumpy; vibe_fancy",
+      "bio": "Wears the gold like she earned it. She didn't. Nobody can prove that.",
+      "description": "Warm yellow-gold feathers with darker horizontal stripes, tall lanky body, small comb, grumpy frown, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_043.png"
+    },
+    {
+      "id": "c_044",
+      "name": "Snowball Ruffles",
+      "image": "assets/chickens/c_044.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_white; pattern_solid; body_tall; comb_small; expr_happy",
+      "bio": "The Snowball family's tall cousin. Less dramatic than Beak and Squawk. Quietly outshines them both.",
+      "description": "White solid plumage, tall slim body, small comb, happy soft expression. Clean and gentle look.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_044.png"
+    },
+    {
+      "id": "c_045",
+      "name": "Lady Cluckles",
+      "image": "assets/chickens/c_045.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "big",
+        "expr": "grumpy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_gray; pattern_solid; body_tall; comb_big; expr_grumpy; vibe_fancy",
+      "bio": "Old money. Big comb, bad mood, excellent posture. Has not laughed since 2019.",
+      "description": "Gray solid plumage, tall regal body, big floppy comb, grumpy refined expression. Fancy disapproving vibe.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_045.png"
+    },
+    {
+      "id": "c_046",
+      "name": "Ballerina Beakson",
+      "image": "assets/chickens/c_046.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "pink",
+        "pattern": "striped",
+        "body": "tall",
+        "comb": "big",
+        "expr": "sleepy"
+      },
+      "trait_string": "color_pink; pattern_striped; body_tall; comb_big; expr_sleepy",
+      "bio": "Bookworm Beakson's twin. Used to dance professionally. Something happened during a performance. We don't ask.",
+      "description": "Soft pastel pink feathers with darker stripes, tall lanky body, big floppy comb, sleepy half-closed eyes, slightly spooky with glassy eye highlight.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_046.png"
+    },
+    {
+      "id": "c_047",
+      "name": "Sherlock Scramble",
+      "image": "assets/chickens/c_047.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "green",
+        "pattern": "striped",
+        "body": "tall",
+        "comb": "small",
+        "expr": "smug"
+      },
+      "trait_string": "color_green; pattern_striped; body_tall; comb_small; expr_smug",
+      "bio": "Amateur detective, full-time menace. Investigates \"cases\" nobody reported. Has been right twice.",
+      "description": "Muted sage-green feathers with darker stripes, tall lanky body, small comb, smug grin, slightly spooky with glassy eye.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_047.png"
+    },
+    {
+      "id": "c_048",
+      "name": "Captain Talon",
+      "image": "assets/chickens/c_048.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "pink",
+        "pattern": "spotted",
+        "body": "tall",
+        "comb": "big",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_pink; pattern_spotted; body_tall; comb_big; expr_smug; vibe_cute",
+      "bio": "The actual retired pirate captain of the Talon family. Lives quietly now. Has agreed to mentor a chick named Choo-Choo. Will not elaborate on the arrangement.",
+      "description": "Soft pastel pink feathers with large darker spots, tall lanky body, big floppy comb, smug grin, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_048.png"
+    },
+    {
+      "id": "c_049",
+      "name": "Zippy Wing",
+      "image": "assets/chickens/c_049.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_black; pattern_solid; body_tall; comb_small; expr_smug; vibe_cute",
+      "bio": "Tall, fast, smug about it. Has won every footrace since she was a chick. Insufferable about it.",
+      "description": "Deep black feathers, solid coloring, tall lanky body, small comb, smug grin, cute with larger eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_049.png"
+    },
+    {
+      "id": "c_050",
+      "name": "Maple Coopworth",
+      "image": "assets/chickens/c_050.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_black; pattern_solid; body_tall; comb_small; expr_happy",
+      "bio": "Genuinely happy all the time. The other chickens find this exhausting and suspicious.",
+      "description": "Deep black feathers, solid coloring, tall lanky body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_050.png"
+    },
+    {
+      "id": "c_051",
+      "name": "Cluck Beakson",
+      "image": "assets/chickens/c_051.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "surprised",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_solid; body_tall; comb_small; expr_surprised; vibe_cute",
+      "bio": "Always surprised, always cute. Has one of those faces. Bookworm and Ballerina Beakson's distant cousin.",
+      "description": "Off-white feathers, solid coloring, tall lanky body, small comb, wide-eyed surprised look, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_051.png"
+    },
+    {
+      "id": "c_052",
+      "name": "Diva Peep",
+      "image": "assets/chickens/c_052.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gold",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gold; pattern_solid; body_tall; comb_big; expr_happy; vibe_cute",
+      "bio": "The rising star. Beautiful voice, knows it. Diva Plume hates her on principle.",
+      "description": "Warm yellow-gold feathers, solid coloring, tall lanky body, big floppy comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_052.png"
+    },
+    {
+      "id": "c_053",
+      "name": "Diva Plume",
+      "image": "assets/chickens/c_053.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "purple",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "big",
+        "expr": "surprised",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_purple; pattern_solid; body_tall; comb_big; expr_surprised; vibe_fancy",
+      "bio": "The established diva. Was the rising star, once. Has not forgiven Diva Peep for being younger.",
+      "description": "Muted lavender-purple feathers, solid coloring, tall lanky body, big floppy comb, wide-eyed surprised look, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_053.png"
+    },
+    {
+      "id": "c_054",
+      "name": "Noodle McCluck",
+      "image": "assets/chickens/c_054.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "white",
+        "pattern": "spotted",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_spotted; body_tall; comb_small; expr_happy; vibe_cute",
+      "bio": "Noodle Hen's much taller cousin. Same flexibility, more reach, twice the trouble.",
+      "description": "Off-white feathers with large darker spots, tall lanky body, small comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_054.png"
+    },
+    {
+      "id": "c_055",
+      "name": "Pepper Feathers",
+      "image": "assets/chickens/c_055.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gray; pattern_solid; body_tall; comb_small; expr_happy; vibe_cute",
+      "bio": "Spicy nickname, sweet personality. Bakes alongside Pinky Roost on Sundays. Was the first to realize that \"helpful chick named Banana\" is on a recon mission. Hasn't told anyone.",
+      "description": "Slate gray-blue feathers, solid coloring, tall lanky body, small comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_055.png"
+    },
+    {
+      "id": "c_056",
+      "name": "Goblin Eggbert",
+      "image": "assets/chickens/c_056.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "brown",
+        "pattern": "spotted",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_brown; pattern_spotted; body_tall; comb_small; expr_happy",
+      "bio": "The wild Eggbert cousin. Has definitely committed crimes. Big Eggbert pretends she doesn't exist.",
+      "description": "Earthy brown feathers with large darker spots, tall lanky body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_056.png"
+    },
+    {
+      "id": "c_057",
+      "name": "Cactus Hen",
+      "image": "assets/chickens/c_057.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_gray; pattern_solid; body_tall; comb_small; expr_grumpy; vibe_tough",
+      "bio": "Prickly inside and out. Lives alone by choice. Will share water with you in a drought, though.",
+      "description": "Slate gray-blue feathers, solid coloring, tall lanky body, small comb, grumpy frown, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_057.png"
+    },
+    {
+      "id": "c_058",
+      "name": "Pickles Crest",
+      "image": "assets/chickens/c_058.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "green",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_green; pattern_solid; body_tall; comb_small; expr_happy; vibe_tough",
+      "bio": "Green and proud of it. Tough but fair. Runs the coop's pickling operation, which is also a front for something.",
+      "description": "Muted sage-green feathers, solid coloring, tall lanky body, small comb, happy smile, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_058.png"
+    },
+    {
+      "id": "c_059",
+      "name": "Thunder Fluff",
+      "image": "assets/chickens/c_059.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gold",
+        "pattern": "solid",
+        "body": "tall",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gold; pattern_solid; body_tall; comb_big; expr_happy; vibe_cute",
+      "bio": "Big personality, bigger comb. Announces her arrival to every room. Universally beloved anyway.",
+      "description": "Warm yellow-gold feathers, solid coloring, tall lanky body, big floppy comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_059.png"
+    },
+    {
+      "id": "c_060",
+      "name": "Comet Quill",
+      "image": "assets/chickens/c_060.png",
+      "body_cluster": "Tall",
+      "traits": {
+        "color": "gold",
+        "pattern": "spotted",
+        "body": "tall",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_gold; pattern_spotted; body_tall; comb_small; expr_happy; vibe_tough",
+      "bio": "Comet Ruffles' younger sister. Faster. Knows it. Is gracious about it, which somehow makes it worse.",
+      "description": "Warm yellow-gold feathers with large darker spots, tall lanky body, small comb, happy smile, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_060.png"
+    },
+    {
+      "id": "c_061",
+      "name": "Pride Pecker",
+      "image": "assets/chickens/c_061.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "brown",
+        "pattern": "striped",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_striped; body_sleek; comb_small; expr_smug; vibe_cute",
+      "bio": "Confident in everything she does. Half of those things go badly. The confidence is unaffected.",
+      "description": "Earthy brown feathers with darker stripes, sleek trim body, small comb, smug grin, cute with larger eyes and softer features.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_061.png"
+    },
+    {
+      "id": "c_062",
+      "name": "Sailor Eggbert",
+      "image": "assets/chickens/c_062.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "pink",
+        "pattern": "solid",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_pink; pattern_solid; body_sleek; comb_small; expr_happy; vibe_fancy",
+      "bio": "The Eggbert who ran away to sea. Came back fancy. Big Eggbert finds this worse than the running away.",
+      "description": "Soft pastel pink feathers, solid coloring, sleek trim body, small comb, happy smile, fancy upright posture with refined feathers.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_062.png"
+    },
+    {
+      "id": "c_063",
+      "name": "Zippy Fluff",
+      "image": "assets/chickens/c_063.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_black; pattern_solid; body_sleek; comb_small; expr_happy",
+      "bio": "Zippy Wing's chiller sibling. Same speed, less commentary. Generally preferred.",
+      "description": "Deep black feathers, solid coloring, sleek trim body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_063.png"
+    },
+    {
+      "id": "c_064",
+      "name": "Smooth Hen",
+      "image": "assets/chickens/c_064.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_solid; body_sleek; comb_small; expr_happy; vibe_cute",
+      "bio": "Always composed. Has cried exactly once, in private, on a Tuesday. The others suspect this happened.",
+      "description": "Off-white feathers, solid coloring, sleek trim body, small comb, happy smile, cute with larger eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_064.png"
+    },
+    {
+      "id": "c_065",
+      "name": "Pixel Talon",
+      "image": "assets/chickens/c_065.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "sleek",
+        "comb": "big",
+        "expr": "smug"
+      },
+      "trait_string": "color_gray; pattern_solid; body_sleek; comb_big; expr_smug",
+      "bio": "The spookiest Talon. Reads tarot for the family. Captain Talon takes it very seriously.",
+      "description": "Dark gray solid plumage, sleek trim body, big floppy comb, smug confident expression. Mysterious tarot-reading energy.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_065.png"
+    },
+    {
+      "id": "c_066",
+      "name": "Speedy Feathers",
+      "image": "assets/chickens/c_066.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "red",
+        "pattern": "spotted",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_red; pattern_spotted; body_sleek; comb_small; expr_grumpy; vibe_fancy",
+      "bio": "Fast, fancy, and frankly tired of this competition with Speedy Coopworth.",
+      "description": "Red-orange feathers with large darker spots, sleek trim body, small comb, grumpy frown, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_066.png"
+    },
+    {
+      "id": "c_067",
+      "name": "Baywatch McCluck",
+      "image": "assets/chickens/c_067.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "brown",
+        "pattern": "speckled",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_speckled; body_sleek; comb_small; expr_happy; vibe_cute",
+      "bio": "Baywatch Quill and Baywatch Cluck's much younger relative. Avoiding the family lifeguard drama entirely.",
+      "description": "Earthy brown feathers with many small darker flecks, sleek trim body, small comb, happy smile, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_067.png"
+    },
+    {
+      "id": "c_068",
+      "name": "Merlin Crest",
+      "image": "assets/chickens/c_068.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "purple",
+        "pattern": "speckled",
+        "body": "sleek",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_purple; pattern_speckled; body_sleek; comb_big; expr_happy; vibe_cute",
+      "bio": "Claims to be a wizard. The other chickens humor her. One time, things floated. We don't talk about that.",
+      "description": "Muted lavender-purple feathers with many small darker flecks, sleek trim body, big floppy comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_068.png"
+    },
+    {
+      "id": "c_069",
+      "name": "Hula Fluff",
+      "image": "assets/chickens/c_069.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_red; pattern_solid; body_sleek; comb_small; expr_happy",
+      "bio": "Throws the coop's annual luau. Best dancer here. Don't tell Diva Peep.",
+      "description": "Red-orange feathers, solid coloring, sleek trim body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_069.png"
+    },
+    {
+      "id": "c_070",
+      "name": "Prism Talon",
+      "image": "assets/chickens/c_070.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "brown",
+        "pattern": "spotted",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_brown; pattern_spotted; body_sleek; comb_small; expr_happy",
+      "bio": "The Talon cousin who married rich. Sends Captain Talon a fruit basket every Solstice.",
+      "description": "Earthy brown feathers with large darker spots, sleek trim body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_070.png"
+    },
+    {
+      "id": "c_071",
+      "name": "Marshmallow Peep",
+      "image": "assets/chickens/c_071.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "white",
+        "pattern": "spotted",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_white; pattern_spotted; body_sleek; comb_small; expr_happy; vibe_tough",
+      "bio": "Looks soft. Bench presses three eggs at a time. Don't underestimate her.",
+      "description": "Off-white feathers with large darker spots, sleek trim body, small comb, happy smile, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_071.png"
+    },
+    {
+      "id": "c_072",
+      "name": "Olive Coopworth",
+      "image": "assets/chickens/c_072.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "white",
+        "pattern": "spotted",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_spotted; body_sleek; comb_small; expr_happy; vibe_cute",
+      "bio": "Maple Coopworth's calmer cousin. Has the same happiness, half the volume.",
+      "description": "Off-white feathers with large darker spots, sleek trim body, small comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_072.png"
+    },
+    {
+      "id": "c_073",
+      "name": "Ruffles Pecker",
+      "image": "assets/chickens/c_073.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "sleek",
+        "comb": "big",
+        "expr": "smug"
+      },
+      "trait_string": "color_red; pattern_solid; body_sleek; comb_big; expr_smug",
+      "bio": "Smug for very good reason: she's right about most things. Annoying about being right.",
+      "description": "Red-orange feathers, solid coloring, sleek trim body, big floppy comb, smug grin.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_073.png"
+    },
+    {
+      "id": "c_074",
+      "name": "Tater Hen",
+      "image": "assets/chickens/c_074.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "brown",
+        "pattern": "striped",
+        "body": "sleek",
+        "comb": "big",
+        "expr": "sleepy"
+      },
+      "trait_string": "color_brown; pattern_striped; body_sleek; comb_big; expr_sleepy",
+      "bio": "Sleepy, slightly haunted, somehow always knows the gossip. Goes to bed at 6.",
+      "description": "Earthy brown feathers with darker stripes, sleek trim body, big floppy comb, sleepy half-closed eyes, slightly spooky.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_074.png"
+    },
+    {
+      "id": "c_075",
+      "name": "Clover Talon",
+      "image": "assets/chickens/c_075.png",
+      "body_cluster": "Sleek",
+      "traits": {
+        "color": "gold",
+        "pattern": "solid",
+        "body": "sleek",
+        "comb": "small",
+        "expr": "grumpy"
+      },
+      "trait_string": "color_gold; pattern_solid; body_sleek; comb_small; expr_grumpy",
+      "bio": "The Talon cousin who didn't marry rich. Holds it against Prism in a chicken-passive-aggressive way.",
+      "description": "Warm yellow-gold feathers, solid coloring, sleek trim body, small comb, grumpy frown.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_075.png"
+    },
+    {
+      "id": "c_076",
+      "name": "Reginald Wing",
+      "image": "assets/chickens/c_076.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "brown",
+        "pattern": "striped",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "grumpy",
+        "vibe": "tough"
+      },
+      "trait_string": "color_brown; pattern_striped; body_fluffy; comb_big; expr_grumpy; vibe_tough",
+      "bio": "Daisy's ex. They had a Thing. Nobody asks about it anymore, especially after that one Tuesday.",
+      "description": "Earthy brown feathers with horizontal darker stripes, extra-fluffy puffed-out body, big floppy comb falling to one side, grumpy frown, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_076.png"
+    },
+    {
+      "id": "c_077",
+      "name": "Night Squawk",
+      "image": "assets/chickens/c_077.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
+      "bio": "Cute, grumpy, nocturnal. Pinky Roost feeds her on the late shift. They're friends now.",
+      "description": "Off-white cream feathers, solid coloring, extra-fluffy body, small comb, grumpy frown but cute with large eyes and small cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_077.png"
+    },
+    {
+      "id": "c_078",
+      "name": "Mango Hen",
+      "image": "assets/chickens/c_078.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "gold",
+        "pattern": "spotted",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gold; pattern_spotted; body_fluffy; comb_small; expr_smug; vibe_cute",
+      "bio": "Co-runs the Mango restaurant. Got fired by Mango McCluck once. Got hired back. They're sisters.",
+      "description": "Warm yellow-gold feathers with large darker spots, extra-fluffy body, small comb, smug grin, cute with cheek blush.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_078.png"
+    },
+    {
+      "id": "c_079",
+      "name": "Bookworm Cluck",
+      "image": "assets/chickens/c_079.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "black",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_black; pattern_solid; body_fluffy; comb_big; expr_happy; vibe_fancy",
+      "bio": "Runs the coop library. Fancy, opinionated, lets you check out books anyway. There's a chick who keeps coming in at night. Bookworm thinks she's reading. Bookworm is a romantic.",
+      "description": "Deep black feathers, solid coloring, extra-fluffy body, big floppy comb, happy smile, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_079.png"
+    },
+    {
+      "id": "c_080",
+      "name": "Speedy Coopworth",
+      "image": "assets/chickens/c_080.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_red; pattern_solid; body_fluffy; comb_small; expr_happy",
+      "bio": "Maple's faster cousin. In the rivalry with Speedy Feathers and somehow always loses by a feather.",
+      "description": "Red-orange feathers, solid coloring, extra-fluffy body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_080.png"
+    },
+    {
+      "id": "c_081",
+      "name": "Pixel Roost",
+      "image": "assets/chickens/c_081.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "brown",
+        "pattern": "striped",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_striped; body_fluffy; comb_small; expr_grumpy; vibe_cute",
+      "bio": "Pinky Roost's tech-savvy distant cousin. Built the coop's first scoreboard. It catches fire occasionally.",
+      "description": "Earthy brown feathers with darker stripes, extra-fluffy body, small comb, grumpy frown, cute with larger eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_081.png"
+    },
+    {
+      "id": "c_082",
+      "name": "Lucky Fluff",
+      "image": "assets/chickens/c_082.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
+      "bio": "Wins everything by accident. Apologizes for it. Wins the apology too.",
+      "description": "Off-white feathers, solid coloring, extra-fluffy body, small comb, grumpy frown, cute with larger eyes.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_082.png"
+    },
+    {
+      "id": "c_083",
+      "name": "Opal Quill",
+      "image": "assets/chickens/c_083.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "gold",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "surprised",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_gold; pattern_solid; body_fluffy; comb_small; expr_surprised; vibe_fancy",
+      "bio": "Spookily beautiful. Stares at things slightly too long. Knows what you're thinking, probably.",
+      "description": "Warm yellow-gold feathers, solid coloring, extra-fluffy body, small comb, wide-eyed surprised look, slightly spooky with glassy eye.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_083.png"
+    },
+    {
+      "id": "c_084",
+      "name": "Pirate Talon",
+      "image": "assets/chickens/c_084.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "pink",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "happy"
+      },
+      "trait_string": "color_pink; pattern_solid; body_fluffy; comb_small; expr_happy",
+      "bio": "Took the Talon family business literally. Captain Talon is so proud. So embarrassed. Both. Recently jealous of a *chick* who's getting Captain's attention.",
+      "description": "Soft pastel pink feathers, solid coloring, extra-fluffy body, small comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_084.png"
+    },
+    {
+      "id": "c_085",
+      "name": "Professor Gizzard",
+      "image": "assets/chickens/c_085.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "white",
+        "pattern": "spotted",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "happy"
+      },
+      "trait_string": "color_white; pattern_spotted; body_fluffy; comb_big; expr_happy",
+      "bio": "The actual academic. Semi-retired. Bookworm Cluck's mentor. They argue about Greek philosophy. Is increasingly certain a chick is casing the library.",
+      "description": "Off-white feathers with large darker spots, extra-fluffy body, big floppy comb, happy smile.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_085.png"
+    },
+    {
+      "id": "c_086",
+      "name": "Queen Cluckles",
+      "image": "assets/chickens/c_086.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gray; pattern_solid; body_fluffy; comb_big; expr_smug; vibe_cute",
+      "bio": "Lady Cluckles' sister. Was supposed to inherit. Didn't. Got smug about it instead.",
+      "description": "Slate gray-blue feathers, solid coloring, extra-fluffy body, big floppy comb, smug grin, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_086.png"
+    },
+    {
+      "id": "c_087",
+      "name": "Party Talon",
+      "image": "assets/chickens/c_087.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "pink",
+        "pattern": "speckled",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_pink; pattern_speckled; body_fluffy; comb_big; expr_smug; vibe_cute",
+      "bio": "Pirate Talon's cooler younger sibling. Throws the coop's wildest parties. Inviting only.",
+      "description": "Soft pastel pink feathers with many small darker flecks, extra-fluffy body, big floppy comb, smug grin, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_087.png"
+    },
+    {
+      "id": "c_088",
+      "name": "Gizmo Cluck",
+      "image": "assets/chickens/c_088.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "white",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
+      "bio": "Builds gadgets. Most don't work. The ones that do are concerning.",
+      "description": "Off-white feathers, solid coloring, extra-fluffy body, small comb, grumpy frown, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_088.png"
+    },
+    {
+      "id": "c_089",
+      "name": "Winter Eggbert",
+      "image": "assets/chickens/c_089.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "multi",
+        "pattern": "speckled",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "tough"
+      },
+      "trait_string": "color_multi; pattern_speckled; body_fluffy; comb_small; expr_smug; vibe_tough",
+      "bio": "The \"we don't talk about him\" Eggbert. Multi-colored, multi-opinioned, on a list somewhere.",
+      "description": "Three distinct color patches (calico-style: white, gray, brown) with many small darker flecks, extra-fluffy body, small comb, smug grin, tough-looking.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_089.png"
+    },
+    {
+      "id": "c_090",
+      "name": "Banjo Talon",
+      "image": "assets/chickens/c_090.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "purple",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_purple; pattern_solid; body_fluffy; comb_big; expr_happy; vibe_cute",
+      "bio": "The musician Talon. Doesn't know about the pirate stuff. The family wants to keep it that way.",
+      "description": "Purple solid plumage, fluffy round body, big floppy comb, happy cheerful expression. Cute vibrant musician.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_090.png"
+    },
+    {
+      "id": "c_091",
+      "name": "Disco Squawk",
+      "image": "assets/chickens/c_091.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "brown",
+        "pattern": "spotted",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "sleepy",
+        "vibe": "fancy"
+      },
+      "trait_string": "color_brown; pattern_spotted; body_fluffy; comb_big; expr_sleepy; vibe_fancy",
+      "bio": "Disco Drumstick's old hype woman. Tired now. Still shows up to every set. Sleeps through some.",
+      "description": "Earthy brown feathers with large darker spots, extra-fluffy body, big floppy comb, sleepy half-closed eyes, fancy refined posture.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_091.png"
+    },
+    {
+      "id": "c_092",
+      "name": "Juniper Eggbert",
+      "image": "assets/chickens/c_092.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "gray",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gray; pattern_solid; body_fluffy; comb_small; expr_grumpy; vibe_cute",
+      "bio": "The youngest Eggbert. Just wants peace. Will never get it. Big Eggbert is her grandfather.",
+      "description": "Slate gray-blue feathers, solid coloring, extra-fluffy body, small comb, grumpy frown, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_092.png"
+    },
+    {
+      "id": "c_093",
+      "name": "Biscuit Beakson",
+      "image": "assets/chickens/c_093.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "red",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "sleepy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_red; pattern_solid; body_fluffy; comb_big; expr_sleepy; vibe_cute",
+      "bio": "Bookworm and Ballerina's much sleepier cousin. Cute, fluffy, secretly the wisest of the three.",
+      "description": "Red-orange feathers, solid coloring, extra-fluffy body, big floppy comb, sleepy half-closed eyes, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_093.png"
+    },
+    {
+      "id": "c_094",
+      "name": "Angel Crest",
+      "image": "assets/chickens/c_094.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "pink",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_pink; pattern_solid; body_fluffy; comb_big; expr_happy; vibe_cute",
+      "bio": "Looks like an angel. Acts like one. Suspicious. Pinky Roost has her eye on her.",
+      "description": "Soft pastel pink feathers, solid coloring, extra-fluffy body, big floppy comb, happy smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_094.png"
+    },
+    {
+      "id": "c_095",
+      "name": "Pepper Pecker",
+      "image": "assets/chickens/c_095.png",
+      "body_cluster": "Fluffy",
+      "traits": {
+        "color": "multi",
+        "pattern": "solid",
+        "body": "fluffy",
+        "comb": "big",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_multi; pattern_solid; body_fluffy; comb_big; expr_grumpy; vibe_cute",
+      "bio": "Multi-colored, multi-opinioned, mildly grumpy. Distant relative of Pepper Feathers. They don't talk.",
+      "description": "Three distinct color patches (calico-style: black, white, gray), solid coloring within each patch, extra-fluffy body, big floppy comb, grumpy frown, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_095.png"
+    },
+    {
+      "id": "c_096",
+      "name": "Abby",
+      "image": "assets/chickens/c_096.png",
+      "body_cluster": "Baby Chicks",
+      "traits": {
+        "color": "pink",
+        "pattern": "solid",
+        "body": "chick",
+        "comb": "small",
+        "expr": "smug",
+        "vibe": "cute"
+      },
+      "trait_string": "color_pink; pattern_solid; body_chick; comb_small; expr_smug; vibe_cute",
+      "bio": "Boss of the chick gang. Tiny, three years old in chicken-time, runs a small but functional crime syndicate. Demands sweets. Gets sweets. Pinky Roost keeps her stocked, mostly out of self-preservation. *(Named by Abby, age 3.)*",
+      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy soft pink fuzz, no real comb, smug confident expression with a slight smirk, cute but knows she's in charge.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_096.png"
+    },
+    {
+      "id": "c_097",
+      "name": "Choo-Choo",
+      "image": "assets/chickens/c_097.png",
+      "body_cluster": "Baby Chicks",
+      "traits": {
+        "color": "white",
+        "pattern": "spotted",
+        "body": "chick",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_white; pattern_spotted; body_chick; comb_small; expr_happy; vibe_cute",
+      "bio": "The chick gang's getaway driver. Boats only. Has been spotted in serious meetings with the Talon family. They've already named the boat. *(Named by Abby, age 3.)*",
+      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy white fuzz with darker spots, no real comb, happy excited expression, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_097.png"
+    },
+    {
+      "id": "c_098",
+      "name": "Banana",
+      "image": "assets/chickens/c_098.png",
+      "body_cluster": "Baby Chicks",
+      "traits": {
+        "color": "gold",
+        "pattern": "solid",
+        "body": "chick",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gold; pattern_solid; body_chick; comb_small; expr_happy; vibe_cute",
+      "bio": "The chick gang's snack-runner and unofficial second-in-command. Hangs around Pinky Roost's kitchen \"just to help.\" Pinky knows what she's actually doing. Pinky lets it happen. *(Named by Abby, age 3.)*",
+      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy bright yellow-gold fuzz, no real comb, happy sunny smile, extra cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_098.png"
+    },
+    {
+      "id": "c_099",
+      "name": "Pink",
+      "image": "assets/chickens/c_099.png",
+      "body_cluster": "Baby Chicks",
+      "traits": {
+        "color": "pink",
+        "pattern": "solid",
+        "body": "chick",
+        "comb": "small",
+        "expr": "grumpy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_pink; pattern_solid; body_chick; comb_small; expr_grumpy; vibe_cute",
+      "bio": "The chick gang's muscle. Tiny, fierce, devoted to Abby. Recently \"convinced\" Daisy to give up the location of her best worm stash. Daisy maintains she just forgot where she buried them. *(Named by Abby, age 3.)*",
+      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy soft pink fuzz, no real comb, grumpy determined frown, cute but ready to fight.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_099.png"
+    },
+    {
+      "id": "c_100",
+      "name": "Lukey",
+      "image": "assets/chickens/c_100.png",
+      "body_cluster": "Baby Chicks",
+      "traits": {
+        "color": "brown",
+        "pattern": "solid",
+        "body": "chick",
+        "comb": "small",
+        "expr": "sleepy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_brown; pattern_solid; body_chick; comb_small; expr_sleepy; vibe_cute",
+      "bio": "The chick gang's alibi. Always seems to be napping somewhere very visible whenever something goes down. Frequently napping near the human's sock drawer. Socks keep going missing. Lukey is asleep. The Builder twins are blaming each other. *(Named by Abby, age 3.)*",
+      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, downy soft brown fuzz, no real comb, sleepy half-closed eyes, calm and chill.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_100.png"
+    },
+    {
+      "id": "c_101",
+      "name": "Panda",
+      "image": "assets/chickens/c_101.png",
+      "body_cluster": "Baby Chicks",
+      "traits": {
+        "color": "multi",
+        "pattern": "speckled",
+        "body": "chick",
+        "comb": "small",
+        "expr": "surprised",
+        "vibe": "cute"
+      },
+      "trait_string": "color_multi; pattern_speckled; body_chick; comb_small; expr_surprised; vibe_cute",
+      "bio": "The chick gang's distraction. Once crashed a Disco Drumstick set screaming, knocked over the speakers, ended Disco's gig early. Disco is furious. DJ Roost was secretly relieved. Banana stole all the snacks while everyone was watching. *(Named by Abby, age 3.)*",
+      "description": "TINY BABY CHICK — half the size of an adult chicken, big head, two-tone black-and-white downy fuzz like a panda, no real comb, wide surprised eyes, dramatic and cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_101.png"
+    },
+    {
+      "id": "c_102",
+      "name": "Giraffe",
+      "image": "assets/chickens/c_102.png",
+      "body_cluster": "Baby Chicks",
+      "traits": {
+        "color": "gold",
+        "pattern": "spotted",
+        "body": "chick",
+        "comb": "small",
+        "expr": "happy",
+        "vibe": "cute"
+      },
+      "trait_string": "color_gold; pattern_spotted; body_chick; comb_small; expr_happy; vibe_cute",
+      "bio": "The chick gang's lookout. Tallest chick (still tiny). Has been spotted in the library at night peering at high shelves. Bookworm Cluck thinks she's reading. Professor Gizzard is less convinced. *(Named by Abby, age 3.)*",
+      "description": "TINY BABY CHICK — but notably the tallest of the chicks (still tiny, but stretched up). Big head, downy gold fuzz with darker brown spots, no real comb, happy gentle smile, cute.",
+      "anchors": {
+        "hat": null,
+        "face": null,
+        "prop": null,
+        "body": null,
+        "nest": null
+      },
+      "image_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho/c_102.png"
+    }
+  ],
+  "image_hosting": {
+    "base_url": "https://raw.githubusercontent.com/encryptidinfo/Public-Images/refs/heads/main/Cluckwho",
+    "format": "PNG with transparent background",
+    "source_dimensions": {
+      "round_cluster (c_001-c_038)": "1254x1254",
+      "tall_cluster (c_039-c_060)": "1024x1024",
+      "sleek_cluster (c_061-c_075)": "1024x1024",
+      "fluffy_cluster (c_076-c_095)": "1024x1024",
+      "chicks_cluster (c_096-c_102)": "1024x1024"
+    },
+    "scaling_note": "Source images vary in size between clusters. Scale at render time using CSS (image-rendering: pixelated) or canvas drawImage(). Display dimensions on the 10x10 grid are typically 64-96px square, so all sources are heavily downscaled — the size difference between clusters is not visually significant at game scale."
+  }
+}
